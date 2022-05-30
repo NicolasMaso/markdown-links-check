@@ -1,0 +1,23 @@
+{
+  "name": "lib-markdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --runInBand",
+    "cli": "node cli.js ./files/text1.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "babel-jest": "^28.1.0",
+    "chalk": "^5.0.1",
+    "node-fetch": "^3.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
