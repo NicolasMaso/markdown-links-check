@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import readFile from "./index.js";
 import chalk from "chalk";
 import validateURLS from "./http-validation.js";
