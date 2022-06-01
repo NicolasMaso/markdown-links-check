@@ -1,6 +1,6 @@
 {
   "name": "markdown-links-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This lib extract the links in a markdown file, has two options: an array result with all links in the file with the title and the URL or test all the URLs and return the status code for each one.",
   "main": "./cli.js",
   "type": "module",
@@ -12,7 +12,16 @@
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "cli": "node cli.js ./files/text.md"
   },
-  "keywords": ["markdown", "URL", "URLs", "url", "urls", "link", "links", "status code"],
+  "keywords": [
+    "markdown",
+    "URL",
+    "URLs",
+    "url",
+    "urls",
+    "link",
+    "links",
+    "status code"
+  ],
   "homepage": "https://github.com/NicolasMaso/markdown-links-check",
   "author": "Nicolas Maso",
   "bugs": {
